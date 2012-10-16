@@ -24,6 +24,8 @@
 		C75172D5161075F200B02158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75172AD161075F200B02158 /* Foundation.framework */; };
 		C75172DD161075F300B02158 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C75172DB161075F300B02158 /* InfoPlist.strings */; };
 		C75172E0161075F300B02158 /* calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75172DF161075F300B02158 /* calculatorTests.m */; };
+		C793D1A11622F44D0019B375 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = C793D1A01622F44D0019B375 /* 114x114.png */; };
+		C793D1A41622F4500019B375 /* 57x57_n.png in Resources */ = {isa = PBXBuildFile; fileRef = C793D1A31622F4500019B375 /* 57x57_n.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		C75172DC161075F300B02158 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C75172DE161075F300B02158 /* calculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculatorTests.h; sourceTree = "<group>"; };
 		C75172DF161075F300B02158 /* calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTests.m; sourceTree = "<group>"; };
+		C793D1A01622F44D0019B375 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		C793D1A31622F4500019B375 /* 57x57_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57_n.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		C751729C161075F200B02158 = {
 			isa = PBXGroup;
 			children = (
+				C793D1A31622F4500019B375 /* 57x57_n.png */,
+				C793D1A01622F44D0019B375 /* 114x114.png */,
 				C75172B1161075F200B02158 /* calculator */,
 				C75172D8161075F200B02158 /* calculatorTests */,
 				C75172AA161075F200B02158 /* Frameworks */,
@@ -241,6 +247,8 @@
 				C75172C2161075F200B02158 /* Default-568h@2x.png in Resources */,
 				C75172C5161075F200B02158 /* MainStoryboard_iPhone.storyboard in Resources */,
 				C75172C8161075F200B02158 /* MainStoryboard_iPad.storyboard in Resources */,
+				C793D1A11622F44D0019B375 /* 114x114.png in Resources */,
+				C793D1A41622F4500019B375 /* 57x57_n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +469,7 @@
 				C75172E5161075F300B02158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C75172E6161075F300B02158 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				C75172E8161075F300B02158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
